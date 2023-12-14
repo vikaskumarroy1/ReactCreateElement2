@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="root"></div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    
+
+    
+
+    <script>
+
+let hedaing=React.createElement('h1',null,"Learn Web Development");
+
+
+let para1=React.createElement('div',null,React.createElement('p',null,"Welcome to MDN Learning area. this set of articles aims to guide complete begineersto deb development with all they need to start coding website"));
+
+
+let para2=React.createElement('div',null,React.createElement('p',null,['The aim of this area of the MDN is not toke you from "beginers" to "export" but  totake you from begineers to conifirmtable from there, you shouls be able to start making your way,learinf from',
+React.createElement('a',{href:"#"},"the rest of MDN"),
+', the other intermidiate to advanced resources that assume a lot of previous knowege']));
+
+let para3=React.createElement('div',null,React.createElement('p',null, ' if you are a complete begineers,web development cab be chalangeing-we will hold your hand and provde enough deatails for you feel comfortable andlearn the topic properly. you should feel at home whaeher you are a student learningwen development'));
+
+
+ReactDOM.render([hedaing,  para1,  para2,  para3], document.getElementById("root"))
+
+
+ 
+
+ 
+    </script>
+</body>
+</html>
