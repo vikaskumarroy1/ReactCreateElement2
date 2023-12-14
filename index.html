@@ -16,20 +16,22 @@
 
     <script>
 
-let hedaing=React.createElement('h1',null,"Learn Web Development");
+let hedaing=React.createElement('h1',null,"Topic coverd");
 
 
-let para1=React.createElement('div',null,React.createElement('p',null,"Welcome to MDN Learning area. this set of articles aims to guide complete begineersto deb development with all they need to start coding website"));
+let anchor1=React.createElement('a',{href:"#"},"Getting started with the web")
+let para1=React.createElement('p',null, "Provides a particuler introduction to web devlopment for begineers")
+
+let anchor2=React.createElement('a',{href:"#"},"HTML--Structureing the web")
+
+let para2=React.createElement('p',null, "HTML is the language that we use the structure of diffrents parts of our contents or define their meaning and purpose what their meaning and purpose is The topis is teachs HTML in detail")
+
+let anchor3=React.createElement('a',{href:"#"},"CSS-- styling the web")
+
+let para3=React.createElement('p',null, "HTML is the language that we use the structure of diffrents parts of our contents or define their meaning and purpose what their meaning and purpose is The topis is teachs HTML in detail")
 
 
-let para2=React.createElement('div',null,React.createElement('p',null,['The aim of this area of the MDN is not toke you from "beginers" to "export" but  totake you from begineers to conifirmtable from there, you shouls be able to start making your way,learinf from',
-React.createElement('a',{href:"#"},"the rest of MDN"),
-', the other intermidiate to advanced resources that assume a lot of previous knowege']));
-
-let para3=React.createElement('div',null,React.createElement('p',null, ' if you are a complete begineers,web development cab be chalangeing-we will hold your hand and provde enough deatails for you feel comfortable andlearn the topic properly. you should feel at home whaeher you are a student learningwen development'));
-
-
-ReactDOM.render([hedaing,  para1,  para2,  para3], document.getElementById("root"))
+ReactDOM.render([hedaing, anchor1, para1,anchor2,para2,anchor3,para3], document.getElementById("root"))
 
 
  
